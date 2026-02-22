@@ -1,6 +1,4 @@
 # ansible-wanatek
-This repository holds files for ansible automation
+All ansible automation code is committed on this repository.
 
-Lets start automating with Ansible
-
-mais uma mudança
+ 
