@@ -1,6 +1,8 @@
-
-
-[linux]
-
+[all]
+#Servers
 10.10.5.4
 
+[all:vars]
+
+ansible_user=maestro
+ansible_password=791974
