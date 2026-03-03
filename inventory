@@ -4,5 +4,5 @@
 
 [all:vars]
 
-#ansible_user=maestro
-#ansible_password=791974
+ansible_user=maestro
+ansible_password=791974
