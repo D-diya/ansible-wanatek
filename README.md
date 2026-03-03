@@ -1,3 +1,3 @@
 # ansible-wanatek
 This repository  
-Estudandp ansible   
+Estudando ansible   
