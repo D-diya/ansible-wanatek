@@ -1,3 +1,2 @@
 # ansible-wanatek
-This repository  
-Estudando ansible   
+This repository is intended to record all submissions via Git
