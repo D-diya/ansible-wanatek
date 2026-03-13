@@ -1,0 +1,22 @@
+---
+- hosts: web_servers
+  become: true
+  tasks:
+############### This playbook install htop on all webservers #########
+  - name: install htop
+    tags: htop,cpuinfo,meminfo
+    package:
+       name: htop
+       state: latest
+############### This playbook install terraform on all webservers #########
+  - name: install terraform
+    unarchive:
+        src: https://releases.hashicorp.com/terraform/1.14.7/terraform_1.14.7_linux_amd64.zip
+        dest: /usr/bin
+        remote_src: yes
+        mode: 0755
+        owner: root
+        group: root
+
+
+
